@@ -11,3 +11,6 @@ build/
 
 # OS files
 .DS_Store
+
+
+“I used a .gitignore file to exclude binaries, build files, and PCAP data from version control.”
