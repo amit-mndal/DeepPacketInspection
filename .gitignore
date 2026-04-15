@@ -1,0 +1,13 @@
+# Ignore binaries
+*.exe
+*.out
+*.o
+
+# Build folder
+build/
+
+# PCAP files (optional)
+*.pcap
+
+# OS files
+.DS_Store
