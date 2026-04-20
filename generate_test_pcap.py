@@ -42,7 +42,7 @@ def create_ip_header(src_ip, dst_ip, protocol, payload_len):
     tos = 0
     total_len = 20 + payload_len
     ident = random.randint(1, 65535)
-    flags_frag = 0x4000  # Don't fragment
+    flags_frag = 0x4000  # Do not fragment
     ttl = 64
     checksum = 0
     
