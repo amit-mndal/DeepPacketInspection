@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate a test PCAP file with various protocols for DPI testing.
-Includes TLS Client Hello with SNI, HTTP, DNS, etc..
+Includes TLS Client Hello with SNI, HTTP, DNS, etc.
 """
 
 import struct
