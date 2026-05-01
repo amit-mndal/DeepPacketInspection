@@ -1,6 +1,6 @@
 # 🔍 Deep Packet Inspection (DPI) Engine
 
-A high-performance **C++ based Deep Packet Inspection (DPI) system** that analyzes network traffic from PCAP files, identifies applications using packet payload inspection (SNI/HTTP), and applies rule-based filtering to allow or block traffic..
+A high-performance **C++ based Deep Packet Inspection (DPI) system** that analyzes network traffic from PCAP files, identifies applications using packet payload inspection (SNI/HTTP), and applies rule-based filtering to allow or block traffic.
 
 ---
 
