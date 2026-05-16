@@ -15,6 +15,7 @@
 using namespace PacketAnalyzer;
 using namespace DPI;
 
+
 // Simplified connection tracking
 struct Flow {
     FiveTuple tuple;
@@ -24,6 +25,7 @@ struct Flow {
     uint64_t bytes = 0;
     bool blocked = false;
 };
+
 
 // Blocking rules
 class BlockingRules {
