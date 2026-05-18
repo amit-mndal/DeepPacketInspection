@@ -15,6 +15,7 @@ void printPacketSummary(const ParsedPacket& pkt, int packet_num) {
     std::cout << "Time: " << std::put_time(tm, "%Y-%m-%d %H:%M:%S") 
               << "." << std::setfill('0') << std::setw(6) << pkt.timestamp_usec << "\n";
     
+    
     // Ethernet layer
     std::cout << "\n[Ethernet]\n";
     std::cout << "  Source MAC:      " << pkt.src_mac << "\n";
@@ -30,6 +31,7 @@ void printPacketSummary(const ParsedPacket& pkt, int packet_num) {
         std::cout << " (ARP)";
     }
     std::cout << "\n";
+    
     
     // IP layer
     if (pkt.has_ip) {
