@@ -3,8 +3,8 @@
 #include <sstream>
 #include <vector>
 #include "dpi_engine.h"
-
 using namespace DPI;
+
 
 void printUsage(const char* program) {
     std::cout << R"(
