@@ -4,6 +4,7 @@
 #include <iomanip>
 #include <cstring>
 
+
 // Use portable byte order functions
 using PortableNet::netToHost16;
 using PortableNet::netToHost32;
