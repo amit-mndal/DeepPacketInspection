@@ -4,11 +4,13 @@
 #include <algorithm>
 #include <mutex>
 
+
 namespace DPI {
 
 // ============================================================================
 // IP Blocking
 // ============================================================================
+
 
 uint32_t RuleManager::parseIP(const std::string& ip) {
     uint32_t result = 0;
