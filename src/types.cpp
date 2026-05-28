@@ -4,8 +4,8 @@
 #include <algorithm>
 #include <cctype>
 
-namespace DPI {
 
+namespace DPI {
 std::string FiveTuple::toString() const {
     std::ostringstream ss;
     
