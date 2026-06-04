@@ -4,13 +4,13 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**"
-            ],
+             ],
             
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
-            ],
+             ],
             
             "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
             "cStandard": "c11",
