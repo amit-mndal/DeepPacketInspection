@@ -180,10 +180,6 @@ wireshark output.pcap
 * Support for HTTP/3 (QUIC)
 * Dynamic rule management
 
----
-
-
-
 
 
 
