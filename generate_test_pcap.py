@@ -4,7 +4,6 @@ Generate a test PCAP file with various protocols for DPI testing.
 Includes TLS Client Hello with SNI, HTTP, DNS, etc.
 """
 
-
 import struct
 import random
 
